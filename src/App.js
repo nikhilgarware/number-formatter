@@ -1,24 +1,20 @@
-import logo from "./logo.svg";
 import "./App.css";
-import NumberFormatter from "./number-fromatter/number-formatter";
+import { useState } from "react";
+import thousandSeperator from "./thousand-seperator/thousand-seperator";
 function App() {
+  const [output, setOutput] = useState();
+  function handleChange(data) {
+    setOutput(thousandSeperator(data.target.value, 2));
+  }
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <center style={{ margin: "20px" }}>
+        <row>
+          <input name="data" onChange={handleChange} />
+        </row>
+        <row>Modified Value: {output}</row>
+      </center>
+    </>
   );
 }
 
