@@ -1,0 +1,28 @@
+{
+  "name": "reactjs-thousand-seperator",
+  "version": "1.0.0",
+  "description": "This package is used to seperate digits in terms of thousands.",
+  "main": "thousand-seperator.jsx",
+  "scripts": {
+    "test": "yarn test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nikhilgarware/number-formatter.git"
+  },
+  "keywords": [
+    "thousand-seperator",
+    "react-js",
+    "number-formatter"
+  ],
+  "author": "Nikhil",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nikhilgarware/number-formatter/issues"
+  },
+  "homepage": "https://github.com/nikhilgarware/number-formatter#readme",
+  "peerDependencies": {
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  }
+}

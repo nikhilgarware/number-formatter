@@ -1,6 +1,6 @@
 import "./App.css";
 import { useState } from "react";
-import thousandSeperator from "./thousand-seperator/thousand-seperator";
+import thousandSeperator from "./package/thousand-seperator";
 function App() {
   const [output, setOutput] = useState();
   function handleChange(data) {
