@@ -1,6 +1,6 @@
-import logo from './logo.svg';
-import './App.css';
-
+import logo from "./logo.svg";
+import "./App.css";
+import NumberFormatter from "./number-fromatter/number-formatter";
 function App() {
   return (
     <div className="App">
