@@ -1,11 +1,14 @@
+/**
+ *
+ * @param {Decimal Value} value: This is the amount which the user will input for formatting
+ * @param {Number} decimal: This value will denote the number of decimals to display
+ * @returns
+ */
 const NumberFormatter = (value, decimal) => {
-  // values : the number which we want to add commas
-  // decimal: the number of digits after decimal points
-  // separates the decimal values and restricts the decimal to two digits only.
   const decimalFormattedValue = parseFloat(
     parseFloat(value).toFixed(decimal)
   ).toLocaleString(
-    "en-In", // Language
+    "en-In", // this is the region according to which the number will be formatted
     {
       useGrouping: true,
     }
