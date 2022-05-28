@@ -1,6 +1,6 @@
 {
   "name": "reactjs-thousand-seperator",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "This package is used to seperate digits in terms of thousands.",
   "main": "thousand-seperator.jsx",
   "scripts": {
