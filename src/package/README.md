@@ -1,4 +1,4 @@
-# react-js-thousand-seperator
+# react-js-thousand-separator
 
 ## A package where you can format number in group of thousands and get desired unit of decimal values.
 
@@ -12,7 +12,7 @@ eg: thousandSeperator(50000.333,1)
 
 ### Example:1
 
-### In this example we are only converting number into decimal formatted number without decimal seperation.
+### In this example we are only converting number into decimal formatted number without decimal separation.
 
 ```
 const number = 50000;
@@ -22,7 +22,7 @@ console.log(output) //50,000
 
 ### Example:2
 
-### In this example we are converting number into decimal formatted number with decimal seperation.
+### In this example we are converting number into decimal formatted number with decimal separation.
 
 ```
 const number = 50124.11111;
